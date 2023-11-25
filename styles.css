@@ -1,0 +1,90 @@
+body{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+
+}
+
+.drawing{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toolbox{
+    margin: 0;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 150px;
+    text-align: center;
+    height: 100vh;
+    display: -ms-inline-grid;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.quantify_feild{
+    display: grid;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 150%;
+}
+
+.valuebutton{
+    border: 1px solid #ddd;
+    margin: 0px;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    background-color: #eee;
+    outline: none;
+    cursor: pointer;
+}
+
+.valuebutton:hover{
+    background: rgb(230, 230, 230 );
+}
+
+.increase-button{
+    border-radius: 8px 8px 0px 0px;
+}
+
+.decrease-button{
+    border-radius: 0px 0px 8px 8px;
+}
+
+.number{
+    display: inline-block;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    margin: 0px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 11pt;
+    background: #fff;
+}
+
+#color{
+    margin: 0 auto;
+}
+
+#clear{
+    background: white;
+    border-radius: 20px;
+    padding: 5px 20px;
+    text-transform: capitalize;
+    border: 1px solid #fff;
+    color: black;
+    cursor: pointer;
+    margin-top: 10%;
+    font-size: 15px;
+}
